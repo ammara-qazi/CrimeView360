@@ -2,7 +2,7 @@ from sqlalchemy import create_engine
 import pandas as pd
 
 # SQLAlchemy connection string
-engine = create_engine('mysql+mysqlconnector://root:rabia765@localhost/crimeview360(1)')
+engine = create_engine('mysql+mysqlconnector://username:password@localhost/crimeview360(1)')
 
 # SQL Query to Fetch Data
 query = "SELECT * FROM location"
