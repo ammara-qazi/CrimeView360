@@ -1,9 +1,9 @@
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
 import seaborn as sns
 from sqlalchemy import create_engine
 import os
+import matplotlib.pyplot as plt
 
 # Set up the SQLAlchemy connection
 db_username = os.getenv('Db_USER')
